@@ -19,7 +19,7 @@ Em vez de jogar todas as 25 variáveis disponíveis em um algoritmo, o ponto de 
 | | |
 |---|---|
 | **Modelo final** | Regressão linear com 2 variáveis: Capacidade da bateria e Ano |
-| **R² (teste)** | 0,907 |
+| **R² (teste)** | 0,905 |
 | **MAE (teste)** | ~US$ 1.508 |
 | **+1 kWh de bateria** | ~US$ 198 a mais no valor de revenda |
 | **+1 ano de fabricação** | ~US$ 474 a mais no valor de revenda |
