@@ -49,7 +49,7 @@ Variáveis que normalmente pesam muito no preço de um carro usado (quilometrage
 
 1. **Tradução e limpeza:** colunas e categorias traduzidas para o português.
 2. **Análise exploratória:** correlação de Spearman (captura relações monotônicas não lineares), boxplots por categoria e evolução das variáveis por ano e fabricante.
-3. **Seleção de variáveis guiada pelo DAG:** Modelo, Ano, Autonomia e Capacidade da bateria.
+3. **Seleção de variáveis guiada pelo DAG:** Modelo, Ano, Autonomia e Capacidade da bateria. A análise de correlação entre as variáveis escolhidas para o modelo acabou retirando a Autonomia do conjunto.
 4. **Prevenção de vazamento de dados:** `train_test_split` antes de qualquer transformação; padronização e *one-hot encoding* feitos dentro de um `Pipeline` com `ColumnTransformer`.
 5. **Modelagem:** *baseline* linear + quatro modelos ajustados com `GridSearchCV` (5 *folds*).
 6. **Comparação robusta:** validação cruzada com média e desvio padrão, em vez de um único *split*.
