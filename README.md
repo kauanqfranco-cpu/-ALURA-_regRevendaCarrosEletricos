@@ -69,8 +69,8 @@ Variáveis que normalmente pesam muito no preço de um carro usado (quilometrage
 ## Como executar
 
 ```bash
-git clone https://github.com/kauanqfranco-cpu/ev-resale-value-regression.git
-cd ev-resale-value-regression
+git clone https://github.com/kauanqfranco-cpu/-ALURA-_regRevendaCarrosEletricos
+cd -ALURA-_regRevendaCarrosEletricos
 pip install -r requirements.txt
 jupyter notebook revendaCarros.ipynb
 ```
