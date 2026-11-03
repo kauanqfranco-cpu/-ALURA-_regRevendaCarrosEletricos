@@ -35,12 +35,11 @@ Em vez de jogar todas as 25 variáveis disponíveis em um algoritmo, o ponto de 
 
 | Modelo | R² | MAE (US$) | RMSE (US$) |
 |---|---|---|---|
-| **Regressão linear (bateria + ano)** | **0,899 ± 0,004** | **1.545 ± 24** | **1.767 ± 26** |
-| Elastic Net (4 variáveis) | 0,899 ± 0,004 | 1.545 ± 25 | 1.767 ± 27 |
-| SVR (4 variáveis) | 0,895 ± 0,004 | 1.564 ± 23 | 1.801 ± 23 |
-| Random Forest (4 variáveis) | 0,892 ± 0,004 | 1.570 ± 26 | 1.827 ± 33 |
-
-O XGBoost fica na mesma faixa (R² ≈ 0,90 no conjunto de teste); a tabela completa, incluindo ele, é gerada no notebook.
+| **Regressão linear (bateria + ano)** | **0,905** | **1.508** | **1.743** |
+| Xgb Regressor (3 variáveis) | 0,901 | 1.522 | 1.775 |
+| Elastic Net (3 variáveis) | 0,905 | 1.508 | 1.745 |
+| SVR (3 variáveis) | 0,904 | 1.517 | 1.753 |
+| Random Forest (3 variáveis) | 0,899 | 1.534 | 1.794 |
 
 ## Limitações
 
