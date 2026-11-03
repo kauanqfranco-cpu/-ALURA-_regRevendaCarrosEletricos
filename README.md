@@ -43,9 +43,7 @@ Em vez de jogar todas as 25 variáveis disponíveis em um algoritmo, o ponto de 
 
 ## Limitações
 
-Variáveis que normalmente pesam muito no preço de um carro usado (quilometragem, saúde da bateria, ciclos de carga) **não têm relação** com o valor de revenda neste conjunto, e os resíduos do modelo têm distribuição **uniforme**, típica de ruído artificial. Isso indica que o **dataset é provavelmente sintético**: as conclusões valem para estes dados e não devem ser extrapoladas diretamente para o mercado real.
-
-O DAG representa premissas do autor; a interpretação causal depende de essas premissas estarem corretas.
+Variáveis que normalmente pesam muito no preço de um carro usado (quilometragem, saúde da bateria, ciclos de carga) **não têm relação** com o valor de revenda neste conjunto, e os resíduos do modelo têm distribuição **uniforme**, típica de ruído artificial. Isso indica que o **dataset é provavelmente sintético**: as conclusões valem para estes dados e não devem ser extrapoladas diretamente para o mercado real. O DAG representa as premissas do autor, já a interpretação causal depende de essas premissas estarem corretas.
 
 ## Metodologia
 
